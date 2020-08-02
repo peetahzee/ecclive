@@ -1,6 +1,6 @@
 # ECC Live
 
-A web portal for ECC Livestreams.
+A web portal for ECC Livestreams. Check us out at [eccseattle.live](https://eccseattle.live).
 
 ## Develop
 
