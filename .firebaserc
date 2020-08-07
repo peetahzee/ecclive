@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "eccseattle-live"
+  },
+  "targets": {
+    "eccseattle-live": {
+      "hosting": {
+        "ecclive": [
+          "eccseattle-live"
+        ]
+      }
+    }
   }
 }
