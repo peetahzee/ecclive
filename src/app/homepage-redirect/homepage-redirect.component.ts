@@ -9,7 +9,7 @@ export class HomepageRedirectComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    window.location.href = "https://eccseattle.org";
+    window.location.href = "https://eccseattle.org/media/livestream";
   }
 
 }
