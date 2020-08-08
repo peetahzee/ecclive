@@ -3,8 +3,8 @@
   <mat-card class="message mat-elevation-z4">
     <mat-card-title>{{event.name}}</mat-card-title>
     <mat-card-content>
-      <p>Service is scheduled on {{startTime | date:'MMM d, h:mm aaaaa'}}m.</p>
-      <p>The livestream will automatically begin.</p>
+      <div><mat-spinner diameter="20"></mat-spinner></div>
+      <p>The livestream will automatically start at the Service's scheduled time on <b>{{startTime | date:'MMM d, h:mm aaaaa'}}m</b>.</p>
     </mat-card-content>
     <mat-card-actions>
       <a href="https://eccseattle.org" mat-stroked-button color="primary">ECC Website</a>
