@@ -22,7 +22,7 @@ export class EventViewComponent implements OnInit {
 
   ngOnInit() {
     this.event = this.route.snapshot.data['event'];
-    this.iframeSrc = `https://www.youtube.com/embed/${this.event.videoId}`;
+    this.iframeSrc = `https://www.youtube.com/embed/${this.event.videoId}?autoplay=1`;
 
     // Automatically refresh on scheduled start time
     if (!this.hasEventBegun()) {
